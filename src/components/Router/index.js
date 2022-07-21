@@ -6,7 +6,7 @@ import CBallPolicy from './pages/GameCBallPage/Policy'
 
 const Router = () => {
   return (
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="cball">
