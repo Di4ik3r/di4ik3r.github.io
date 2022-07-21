@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Routes, Route, HashRouter } from 'react-router-dom'
 
 import Home from './pages/index'
 import GameCBallPage from './pages/GameCBallPage'
@@ -6,7 +6,7 @@ import CBallPolicy from './pages/GameCBallPage/Policy'
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="cball">
@@ -14,7 +14,7 @@ const Router = () => {
           <Route path="policy" element={<CBallPolicy />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
