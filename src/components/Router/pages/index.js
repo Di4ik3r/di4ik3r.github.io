@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import './index.css'
 
 const Home = () => {
@@ -5,6 +7,7 @@ const Home = () => {
     <div className="App">
       <header className="App-header">
         <p>Di4ik3r&apos;s personal page</p>
+        <Link to="/cBall">cBall game</Link>
       </header>
     </div>
   )
