@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Di4ik3r&apos;s personal page</p>
+        <p>Di4ik3r&apos;s personal website</p>
         <Link to="/cBall">cBall game</Link>
       </header>
     </div>
