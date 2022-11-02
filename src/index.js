@@ -5,12 +5,21 @@ import Router from './components/Router'
 import reportWebVitals from './reportWebVitals'
 
 import './index.css'
+import { ThemeProvider, createTheme } from '@mui/material/styles'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
+const darkTheme = createTheme({
+  palette: {
+    mode: 'dark',
+  },
+})
+
 root.render(
   <React.StrictMode>
-    <Router />
+    <ThemeProvider theme={darkTheme}>
+      <Router />
+    </ThemeProvider>
   </React.StrictMode>,
 )
 

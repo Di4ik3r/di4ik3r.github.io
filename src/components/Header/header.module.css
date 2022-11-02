@@ -1,0 +1,26 @@
+.wrap {
+  display: fixed;
+  flex: 1;
+  height: 70px;
+  padding: 10px 20% 10px 20%;
+
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 15px;
+}
+
+.navList {
+  flex: 1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  margin: 0 25px 0 25px;
+}
