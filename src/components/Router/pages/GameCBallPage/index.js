@@ -28,7 +28,7 @@ const GameCBallPage = () => {
           <Paper>
             <Stack py={6} px={6} spacing={3}>
               <Typography variant="h4">
-                cBall is a primitive game which is not collects any user data and was created to have fun.
+                cBall is a primitive game which is not collecting any user data and was created to have fun.
               </Typography>
               <Button variant="outlined" size="large" onClick={() => navigate('/cBall/policy')}>
                 cBall policy
