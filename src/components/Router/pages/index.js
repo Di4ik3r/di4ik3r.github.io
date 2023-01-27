@@ -28,7 +28,13 @@ const Home = () => {
 
       <Grow in={growInContent}>
         <Box mt={12}>
-          <Card sx={{ maxWidth: 320 }} onClick={() => navigate('/cball')} className="card">
+          <Card
+            onClick={() => navigate('/cball')}
+            className="card"
+            sx={{
+              maxWidth: 320,
+              ':hover': { boxShadow: 20 },
+            }}>
             <CardMedia component="img" height="320" image="/cBall_logo.png" alt="green iguana" />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
